@@ -71,13 +71,13 @@ class Library:
 
 
 library = Library()
-fictional = Fictional("harry", "asif", 2012,"adventure" )
-non_fictional = Non_fictional("asf", "afdf", 2023,"real")
+fictional = Fictional("Harry Potter", "J.K. Rowling", 2012, "Fantasy")
+non_fictional = Non_fictional("Sapiens", "Yuval Noah Harari", 2015, "History")
 
 library.add_book(fictional)
 library.add_book(non_fictional)
 
 library.display_books()
 
-library.search_auther('asif')
+library.search_author('J.K. Rowling')
 library.search_year(2010, 2020)
