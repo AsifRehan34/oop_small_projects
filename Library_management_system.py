@@ -79,5 +79,5 @@ library.add_book(non_fictional)
 
 library.display_books()
 
-library.search_author('J.K. Rowling')
+library.search_auther('J.K. Rowling')
 library.search_year(2010, 2020)
